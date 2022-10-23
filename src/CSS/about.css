@@ -1,0 +1,66 @@
+.atext{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.image{
+    width: 500px;
+    height: 500px;
+}
+
+.aflex1{
+    width: 90%;
+    /* border: 1px solid; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #001c55;
+    /* gap: 100px; */
+    font-family: cursive;
+}
+
+.agrid{
+    width: 600px;
+    /* justify-content: flex-start; */
+    text-align: left;
+
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+    .aimage{
+        width: 300px; 
+        height: 100px;
+    }
+
+    .agrid{
+        width: 200px;
+        text-align: left;
+        font-size: 10px;
+    } 
+
+    .atext{
+        font-weight: 700;
+        font-size: 25px;
+    }
+    
+  }
+
+
+  @media (min-width: 480px) and (max-width: 768px) {
+    .aimage{
+        width: 300px;
+        height: 200px;
+    }
+
+ .agrid{
+        width: 350px;
+        font-size: 15px;
+    } 
+    .atext{
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+}  

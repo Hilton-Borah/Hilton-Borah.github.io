@@ -1,0 +1,114 @@
+.hflex{
+    /* display: flex;
+    flex-direction: column;
+    color: red; */
+    width: 90%;
+    /* border: 1px solid; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #001c55;
+}   
+
+.hflex2{
+    margin-top: 30px;
+    gap: 15px;
+    font-size: 20px;
+}
+
+
+.hgrid{
+    width: 600px;
+    text-align: left;
+    /* line-height: 40px; */
+}
+
+.himage{
+    width: 500px;
+    height: 500px;
+}
+
+.hbutton{
+    text-align: start;
+    width: 200px;
+    color: #f2f6ff;
+    margin-top: 30px;
+}
+
+.hbutton:hover{
+    background-color: #0e6ba8; 
+    color: #0e6ba8;
+    border: 1px solid #0e6ba8;
+}
+
+.htext1{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.htext2{
+    font-size: 30px;
+}
+
+.htext3{
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 500;
+    font-family: cursive;
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+    .himage{
+        width: 200px;
+        height: 150px;
+    }
+
+    .hgrid{
+        width: 300px;
+        text-align: left;
+        /* line-height: 40px; */
+    }
+
+    .htext1{
+        font-weight: 700;
+        font-size: 25px;
+    }
+    
+    .htext2{
+        font-size: 25px;
+    }
+    
+    .htext3{
+        font-size: 15px;
+        margin-top: 15px;
+        font-weight: 500;
+        font-family: cursive;
+    }
+  }
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .himage{
+        width: 300px;
+        height: 300px;
+    }
+
+    .hgrid{
+        width: 400px;
+        text-align: left;
+        /* line-height: 40px; */
+    }
+
+    .htext1{
+        font-size: 30px;
+    }
+    
+    .htext2{
+        font-size: 20px;
+    }
+    
+    .htext3{
+        font-size: 15px;
+    }
+}  

@@ -1,6 +1,6 @@
-.hflex{
-    /* display: flex;
-    flex-direction: column;
+#home{
+    display: flex;
+    /* flex-direction: column;
     color: red; */
     width: 90%;
     /* border: 1px solid; */
@@ -9,6 +9,9 @@
     justify-content: space-between;
     align-items: center;
     color: #001c55;
+    margin-top: 40px;
+    padding-top: 60px;
+    margin-bottom: 50px;
 }   
 
 .hflex2{
@@ -30,15 +33,18 @@
 }
 
 .hbutton{
-    text-align: start;
     width: 200px;
+    padding: 10px;
+    border-radius: 10px;
     color: #f2f6ff;
     margin-top: 30px;
+    background-color: #001c55;
+    border: 1px solid #0e6ba8;
 }
 
 .hbutton:hover{
-    background-color: #0e6ba8; 
-    color: #0e6ba8;
+    color: #001c55;
+    background-color: #f2f6ff;
     border: 1px solid #0e6ba8;
 }
 
@@ -55,40 +61,13 @@
     font-size: 20px;
     margin-top: 15px;
     font-weight: 500;
-    font-family: cursive;
+    font-family:monospace;
 }
 
-@media (min-width: 360px) and (max-width: 480px) {
-    .himage{
-        width: 200px;
-        height: 150px;
-    }
 
-    .hgrid{
-        width: 300px;
-        text-align: left;
-        /* line-height: 40px; */
-    }
+@media screen and (min-width: 768px) and (max-width: 1024px){
 
-    .htext1{
-        font-weight: 700;
-        font-size: 25px;
-    }
     
-    .htext2{
-        font-size: 25px;
-    }
-    
-    .htext3{
-        font-size: 15px;
-        margin-top: 15px;
-        font-weight: 500;
-        font-family: cursive;
-    }
-  }
-
-
-@media (min-width: 480px) and (max-width: 768px) {
     .himage{
         width: 300px;
         height: 300px;
@@ -109,6 +88,56 @@
     }
     
     .htext3{
-        font-size: 15px;
+        font-size: 17px;
+    }
+
+    .hbutton{
+        width: 150px;
     }
 }  
+
+
+@media screen and (min-width: 320px) and (max-width: 767px){ 
+    
+    .himage{
+        width: 200px;
+        height: 150px;
+        margin-bottom: 100px;
+    }
+
+    .hgrid{
+        width: 300px;
+        text-align: left;
+        /* line-height: 40px; */
+    }
+
+    .hflex2{
+        margin-top: 30px;
+        gap: 15px;
+        font-size: 15px;
+    }
+
+    .htext1{
+        /* width: 250px; */
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .htext2{
+        font-size: 18px;
+    }
+    
+    .htext3{
+        font-size: 15px;
+        margin-top: 15px;
+        font-weight: 500;
+        font-family:monospace;
+    }
+
+    .hbutton{
+        width: 120px;
+        font-size:12px ;
+    }
+  }
+
+

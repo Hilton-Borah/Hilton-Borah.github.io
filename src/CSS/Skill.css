@@ -1,0 +1,137 @@
+#skill{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #001c55;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.sflex{
+    /* display: flex;
+    flex-direction: column;
+    color: red; */
+    width: 90%;
+    /* border: 1px solid; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #001c55;
+    margin-top: 70px;
+    margin-bottom: 50px;
+} 
+
+.sgrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.sbox{
+    width: 95px;
+    padding: 10px;
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+    background-color: #eef4ff;
+    cursor: pointer;
+}
+
+.sbox:hover{
+    border: 0.5px solid rgb(150, 143, 239);
+    background-color: #e1ebfc;    
+}
+
+.sbox>img{
+    width: 50px;
+    margin: auto;
+}
+
+.stext1{
+    font-size: 13px;
+    margin-top: 10px;
+    font-family:monospace;
+}
+
+.simage{
+    width: 650px;
+    height: 500px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    #skill{
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .simage{
+        width: 200px;
+        height: 150px;
+    }
+
+    .sbox{
+        width:58px;
+        /* padding: 2px;
+        padding: 10px; */
+        border: 0.5px solid lightgray;
+    }
+
+    .sgrid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 5px;
+    }
+    
+    
+    .sbox>img{
+        width: 15px;
+        margin: auto;
+    }
+    
+    .stext1{
+        font-size: 9px;
+        margin-top: 5px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #skill{
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: #001c55;
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+
+    .simage{
+        width: 300px;
+        height: 200px;
+    }
+
+    .sgrid{
+        row-gap: 15px;
+        column-gap: 15px;
+    }
+
+    .sbox{
+        width: 75px;
+        padding: 10px;
+    }
+    
+    .sbox>img{
+        width: 40px;
+    }
+    
+    .stext1{
+        font-size: 10px;
+        margin-top: 7px;
+    }
+
+}

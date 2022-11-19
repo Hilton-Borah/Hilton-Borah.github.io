@@ -1,0 +1,146 @@
+#project{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #001c55;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.pflex1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 50px; */
+    color: #001c55;
+}
+
+.pimage1{
+    width: 550px;
+}
+
+.ptext1{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+.pgrid{
+    width: 70%;
+    margin: auto;
+    gap: 50px;
+    margin-top: 30px;
+    grid-template-columns: repeat(3,1fr);
+    color: #001c55;
+    margin-bottom: 30px;
+}
+
+.pbox{
+    border: 1px solid rgb(216, 214, 249);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #eef4ff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    font-family:monospace;
+}
+
+.pbox:hover{
+    border: 1px solid #001c55;
+}
+
+.pimage2{
+    width: 350px;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 0.5px solid rgb(205, 202, 243);
+}
+
+/* .pimage2:hover{
+    border: 1.5px solid #001c55;
+} */
+
+.ptext2{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.ptext3{
+    margin-top: -10px;
+    width: 280px;
+    height: 150px;
+    font-size: 14px;
+    padding: 20px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.ptext4{
+    height: 30px;
+}
+
+.pflex2{
+    height: 30px;
+    font-size: 30px;
+        margin-top: 15px;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    #project{
+        font-weight: 700;
+        font-size: 30px;
+        /* margin-bottom: 20px; */
+        color: #001c55;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+
+    .pimage1{
+        width: 350px;
+    }
+
+    .pgrid{
+        width: 70%;
+        justify-content: center;
+        margin-top: 30px;
+        grid-template-columns: repeat(2,1fr);
+        margin-bottom: 30px;
+    }
+
+    .ptext1{
+        font-size: 17px;
+    }
+    
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+    #project{
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: 40px;
+        /* margin-bottom: -50px; */
+    }
+
+    .pimage1{
+        width: 150px;
+    }
+
+    .pgrid{
+        width: 70%;
+        justify-content: center;
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 30px;
+    }
+
+    .ptext1{
+        font-size: 14px;
+    }
+}

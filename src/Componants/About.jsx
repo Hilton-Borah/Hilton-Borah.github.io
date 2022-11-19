@@ -6,16 +6,16 @@ import "../CSS/about.css"
 const About = () => {
   return (
     <Box>
-      <Text className="atext" >All About Me</Text>
-      <Flex className='aflex1'>
+      <Text id="about" >All About Me</Text>
+      <Box className='aflex1'>
         <Box>
-          <Image className='aimage' src='./images/potfolio1.png'/>
+          <Image className='aimage' src='https://user-images.githubusercontent.com/103739534/202837803-d81c13a9-4ca0-4270-83aa-c9791db46249.png'/>
         </Box>
         <Grid className='agrid'>
-          <List spacing={3} className='agrid'>
+          <List spacing={3} className='atext'>
             <ListItem>
               <ListIcon as={SlEnergy} color='#001c55' />
-              Hello! My name Debobrota Haldar and I enjoy creating things that live on the internet.
+              Hello! My name Hilton Kumar Borah and I enjoy creating things that live on the internet.
             </ListItem>
             <ListItem>
               <ListIcon as={SlEnergy} color='#001c55' />
@@ -24,23 +24,14 @@ const About = () => {
             </ListItem>
             <ListItem>
               <ListIcon as={SlEnergy} color='#001c55' />
-              My interest in web development started back last year when I was trying to edit things on the web, that taught me a lot about HTML & CSS.
-            </ListItem>
-            {/* You can also use custom icons from react-icons */}
-            <ListItem>
-              <ListIcon as={SlEnergy} color='#001c55' />
-              As I grow and flourish as a Developer, one thing which keeps me going is my inquisitiveness for discovering new things every day.
-            </ListItem>
-            <ListItem>
-              <ListIcon as={SlEnergy} color='#001c55' />
               Fast Forwarding to today, I built a number of web applications and 4 major projects. Learned a great deal about teamwork, leadership, and communication. After months of rigorous training, here I am looking for an opportunity as a full stack web developer.
             </ListItem>
           </List>
         </Grid>
-      </Flex>
+      </Box>
     </Box>
   )
 }
 
-
+{/* <img src="https://tinypic.host/images/2022/10/26/portfolio3.png" alt="portfolio3.png" border="0" /> */}
 export default About

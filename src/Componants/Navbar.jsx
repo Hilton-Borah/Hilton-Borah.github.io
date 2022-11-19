@@ -1,20 +1,24 @@
-import { Box, Flex } from '@chakra-ui/react'
-import React from 'react'
+import { Box, Flex,Image,Button} from '@chakra-ui/react'
+import React, { useState } from 'react'
+import "../CSS/Navbar.css"
+import {GiHamburgerMenu} from "react-icons/gi";
+import {HiXMark} from "react-icons/hi2"
 
 const Navbar = () => {
+    const [mobile,setMobile] = useState(false)
     return (
-        <Box display={"flex"} bgColor={"black"}>
-            <Flex color="rgb(110, 206, 248)" margin="auto" gap="80%" justifyContent={"space-around"}>
-                <Box>Logo</Box>
-                <Flex w="700px" border={"1px solid white"} gap="10%">
-                    <Flex>Dark</Flex>
-                    <Flex>Home</Flex>
-                    <Flex>About</Flex>
-                    <Flex>Skill</Flex>
-                    <Flex>Projects</Flex>
-                    <Flex>Contact</Flex>
-                </Flex>
-            </Flex>
+        <Box>
+            <Box className='nflex'>
+            <a href='#home'><Image className='nimage' src='https://user-images.githubusercontent.com/103739534/202837417-3fe0b666-ce93-4741-ba9a-8e9423e86455.jpg'/></a>
+                <Box className={mobile?"ntext2-mobile":"ntext2"} onClick={()=>setMobile(false)}>
+                    <a href='#home'><Flex className='nflex1'>Home</Flex></a>
+                    <a href='#about'><Flex className='nflex1'>About</Flex></a>
+                    <a href='#skill'><Flex className='nflex1'>Skill</Flex></a>
+                    <a href='#project'><Flex className='nflex1'>Projects</Flex></a>
+                    <a href='#contact'><Flex className='nflex1'>Contact</Flex></a>
+                </Box>
+                    <Box className='mobile-menu' onClick={()=>setMobile(!mobile)}><Button fontSize={"600px"}>{mobile?<HiXMark/>:<GiHamburgerMenu/>}</Button></Box>
+            </Box>
         </Box>
     )
 }

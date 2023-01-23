@@ -14,8 +14,8 @@ export const projectsAll = [
       name:"Cricbuzz clone",
       description:"Cricbuzz is an Indian cricket news website owned by Times Internet. It features news, articles and team rankings.",
       TeckStack:"HTML, Javascript, CSS",
-      ViewLink:"https://hilton-borah.github.io/gabby-cough-15/",
-      RapoLink:"https://github.com/Hilton-Borah/gabby-cough-15/"
+      ViewLink:"https://hilton-borah.github.io/Cricbuzz-Clone/",
+      RapoLink:"https://github.com/Hilton-Borah/Cricbuzz-Clone"
     },
     {
       id:3,
@@ -37,12 +37,12 @@ export const projectsAll = [
     },
     {
       id:5,
-      image:"https://user-images.githubusercontent.com/103739534/202838347-a193e2de-acea-4c87-9e52-f82fe45ac0b2.png",
-      name:"Time Plus",
-      description:"Time plus is a timer application which has a stopwatch with a timer to help you do a particular task in a bounded time.",
-      TeckStack:"React, ChakraUI ,HTML, Javascript, CSS",
-      ViewLink:"https://stopwatch-hazel-two.vercel.app/",
-      RapoLink:"https://github.com/Hilton-Borah/Stopwatch"
+      image:"https://user-images.githubusercontent.com/103739534/213977598-77bc9179-7295-4ccd-a16e-75d01773cb89.png",
+      name:"Fashion Hunter",
+      description:"Fashion Hunter is India's leading e-commerce website. Mainly used for purchasing trending cloths, watches, etc.",
+      TeckStack:"React, ChakraUI, CSS, MongoDB, Nodejs, Expressjs",
+      ViewLink:"https://fashion-hunter.netlify.app/",
+      RapoLink:"https://github.com/Hilton-Borah/Fashion-hunter"
     },
     {
       id:6,
@@ -50,8 +50,8 @@ export const projectsAll = [
       name:"Foodieworld App",
       description:"FoodieWorld is a food recipe site where you can search for recipe of a dish, with proper instruction of which given in the application. ",
       TeckStack:"HTML, Javascript, CSS",
-      ViewLink:"https://hilton-borah.github.io/Recipe-App/",
-      RapoLink:"https://github.com/Hilton-Borah/Recipe-App"
+      ViewLink:"https://hilton-borah.github.io/Foodieworld/",
+      RapoLink:"https://github.com/Hilton-Borah/Foodieworld"
     },
   ]
   

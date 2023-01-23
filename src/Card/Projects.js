@@ -19,7 +19,7 @@ export const projectsAll = [
     },
     {
       id:3,
-      image:"https://raw.githubusercontent.com/Hilton-Borah/Mailtrap-Clone/main/readme/1.jpg",
+      image:"https://user-images.githubusercontent.com/103739534/214076393-33f50399-d3a5-43e1-ba10-4c9bd4070578.png",
       name:"MailTrap Clone",
       description:"This is a clone of mailtrap website Mailtrap is a testing tool and is not designed to deliver emails to real addresses. ",
       TeckStack:"HTML, Javascript, CSS",

@@ -23,10 +23,10 @@ const ContactUs = () => {
                         <Link href='https://www.youtube.com/channel/UCdAr7fBurp9PYx8PYPr5zMQ' target={"_blank"}><BsYoutube /></Link>
                         <Link href='https://www.instagram.com/hilton_bora/' target={"_blank"}><AiFillInstagram /></Link>
                     </Flex>
-                    <Flex className='ctext2' justifyContent={"center"} m={"auto"}>
+                    <Link href={"https://mail.google.com/mail/u/0/?tab=wm#inbox?compose=new"} target={"_blank"}><Flex className='ctext2' justifyContent={"center"} m={"auto"}>
                         <MdOutlineAlternateEmail />
                         <Text mt={"-5px"}>hiltonborah123@gmail.com</Text>
-                    </Flex>
+                    </Flex></Link>
                     <Flex className='ctext2' justifyContent={"center"}>
                         <AiFillPhone />
                         <Text mt={"-5px"}>+91-7002110273</Text>

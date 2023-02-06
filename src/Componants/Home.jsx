@@ -26,7 +26,7 @@ const Home = () => {
           <Link href='https://www.youtube.com/channel/UCdAr7fBurp9PYx8PYPr5zMQ' target={"_blank"}><BsYoutube /></Link>
           <Link href='https://www.instagram.com/hilton_bora/' target={"_blank"}><AiFillInstagram /></Link>
         </Flex>
-        <a textDecoration={"none"} href='../Hilton_Kumar Borah_Resume.pdf' download><button onClick={handleClick} bgColor={"#001c55"} className='hbutton'>See my Resume</button></a>
+        <a textDecoration={"none"} href='../fp04_126_Hilton_Kumar_Borah_Resume.pdf' download><button onClick={handleClick} bgColor={"#001c55"} className='hbutton'>See my Resume</button></a>
       </Grid>
       <Box>
         <Image className='himage' src='https://user-images.githubusercontent.com/103739534/202837668-b891e66b-43b3-42cd-ba2c-9dec733ef2f0.png' />

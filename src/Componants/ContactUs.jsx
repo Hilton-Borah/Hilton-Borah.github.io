@@ -14,7 +14,7 @@ const ContactUs = () => {
             <Text id='contact' >Get in Touch Contact me</Text>
             <Box className='cflex1'>
                 <Box className='cbox'>
-                    <Box className='cprofilebox'><Image className='cprofile' src='https://user-images.githubusercontent.com/103739534/202837993-02eca68a-ceb8-49f5-9ca8-aecef772e54a.jpg' /></Box>
+                    <Box className='cprofilebox'><Image className='cprofile' src='https://user-images.githubusercontent.com/103739534/221340029-165fec07-0d49-4c2c-8f40-4a5601745704.jpg' /></Box>
                     <Text className='ctext2'>Got a project? Reach out and let's work together on something exciting. You can contact me at the places mentioned below.</Text>
                     <Flex className='cflex2'>
                         <Link href='https://github.com/Hilton-Borah' target={"_blank"}><BsGithub /></Link>

@@ -1,14 +1,28 @@
 export const projectsAll = [
   {
-    id:3,
-    image:"https://user-images.githubusercontent.com/103739534/215263958-67b5df18-a7db-48b5-abd9-d92bbdf32a5b.png",
-    name:"Downtown Service",
-    description:"Downtown service is a site who provides various types of sevices to the user like plumber, electricians and also other home services. ",
-    TeckStack:"React, ChakraUI, MongoDB, Nodejs, Expressjs",
-    ViewLink:"https://downtown-service-hilton-borah.vercel.app/",
-    RapoLink:"https://github.com/Hilton-Borah/Downtown-service"
+    id:2,
+    image:"/nexus.png",
+    name:"Nexus", 
+    description:"Nexus is a practice management software designed for CAs, CSs, lawyers, and tax professionals, enabling them to manage their work efficiently using this software.",
+    TeckStack:"React, Tailwind, MongoDB, Nodejs, Expressjs",
+    ViewLink:"https://nexus.practiceguru.pro/",
   },
-  
+  {
+    id:3,
+    image:"/happy2age.png",
+    name:"Happ2age admin panel",
+    description:"Happ2Age empowers older adults through engaging activities, promoting confidence, self-worth, and holistic well-being across urban and rural communities.",
+    TeckStack:"React, Tailwind, MongoDB, Nodejs, Expressjs",
+    ViewLink:"https://admin.happy2age.com/",
+  },
+  {
+    id:1,
+    image:"/breakbag.png",
+    name:"Breakbag admin panel",
+    description:"Breakbag is a travel agency that offers seamless national and international tours, ensuring unforgettable experiences for every traveller.",
+    TeckStack:"React, Tailwind, MongoDB, Nodejs, Expressjs",
+    ViewLink:"https://admin.breakbag.com/",
+  },
   {
     id:5,
     image:"https://user-images.githubusercontent.com/103739534/213977598-77bc9179-7295-4ccd-a16e-75d01773cb89.png",
@@ -36,23 +50,5 @@ export const projectsAll = [
     ViewLink:"https://super-cool-site-by-hilton-borah.netlify.app/",
     RapoLink:"https://github.com/Hilton-Borah/scared-note-9891"
   },
-    {
-      id:4,
-      image:"https://user-images.githubusercontent.com/103739534/199782549-5b59cade-3948-4ca3-bdda-17f810692ba7.png",
-      name:"BeautyBebo Clone",
-      description:"Beauty Bebo is India’s fastest growing online retail store for Personal care, Mom and Baby care, Fragrance and Ayurveda products.",
-      TeckStack:"HTML, Javascript, CSS",
-      ViewLink:"https://hilton-borah.github.io/Beauty-Bebo-Clone/",
-      RapoLink:"https://github.com/Hilton-Borah/Beauty-Bebo-Clone"
-    },
-    {
-      id:2,
-      image:"https://user-images.githubusercontent.com/103739534/200160288-44c8b60d-5902-45a6-8462-a435cac47d72.png",
-      name:"Cricbuzz clone",
-      description:"Cricbuzz is an Indian cricket news website owned by Times Internet. It features news, articles and team rankings.",
-      TeckStack:"HTML, Javascript, CSS",
-      ViewLink:"https://hilton-borah.github.io/Cricbuzz-Clone/",
-      RapoLink:"https://github.com/Hilton-Borah/Cricbuzz-Clone"
-    },
   ]
   

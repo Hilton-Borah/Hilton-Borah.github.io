@@ -1,99 +1,120 @@
-.nflex{
+/* Ensure the navbar is always visible */
+.navbar-container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgb(193, 223, 243);
+}
+
+/* Navbar Flexbox */
+.nflex {
     display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    padding-left: 80px;
-    padding-right: 80px;
-    margin: auto;
-    color: rgb(0, 28, 85);
+    padding: 10px 80px;
     font-weight: 700;
     font-size: 20px;
-    background-color: rgb(193, 223, 243);
-    position: fixed;
-    top: 0;
-    margin-bottom: 50px;
+    color: rgb(0, 28, 85);
 }
 
-.nimage{
+/* Logo Image */
+.nimage {
     width: 150px;
     height: 50px;
 }
 
-
-.ntext2{
-    width: 40%;
+/* Desktop Navigation Links */
+.ntext2 {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+    gap: 20px;
 }
 
-.nflex1:hover{
+.ntext2 a {
+    text-decoration: none;
+    color: rgb(0, 28, 85);
+    transition: color 0.3s ease;
+}
+
+.ntext2 a:hover {
     color: rgb(19, 88, 226);
 }
 
-.mobile-menu{
+/* Mobile Menu Button */
+.mobile-menu {
     display: none;
 }
 
-
-@media screen and (max-width:780px){
-    .nflex{
-        height: 70px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .nimage{
-        display: flex;
-         top: 15px;
-        left: 10px; 
-    }
-
-    .ntext2{
-        display: none; 
-        color: red;
-     } 
-
-    .ntext2-mobile{
-        width: 60%;
-        display:block;
-        margin: auto;
-        line-height: 45px;
-        margin-top: 55px;
-        margin-right: -25%;
-        text-align: center;
-         background-color:  rgb(193, 223, 243);
-    }
-
-    .nflex1{
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        color: rgb(0, 28, 85);
-        border-bottom: 0.5px solid rgb(144, 181, 255);
-        text-align: center;
-        width: 100%;
-        transition: all 0.5s ease;
-    }
-
-    .mobile-menu{
-        width: 50px;
-        font-size: 70px;
-        color: rgb(0, 28, 85);
-        background-color: rgb(193, 223, 243);
-        display: flex;
-        top: 15px;
-        right: 10px; 
-    }
-
-    .mobile-menu>button{
-        /* font-size: 100px; */
-        background-color: rgb(193, 223, 243);
-    }
-
+.menu-button {
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(0, 28, 85);
 }
 
+/* Responsive Styles */
+@media screen and (max-width: 1024px) {
+    .nflex {
+        padding: 10px 40px;
+    }
 
+    .ntext2 {
+        display: none;
+    }
 
+    .mobile-menu {
+        display: block;
+    }
+
+    /* Mobile Navigation */
+    .ntext2-mobile {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: rgb(193, 223, 243);
+        text-align: center;
+        padding: 10px 0;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .ntext2-mobile a {
+        padding: 10px;
+        text-decoration: none;
+        color: rgb(0, 28, 85);
+        font-size: 18px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nflex {
+        padding: 10px 20px;
+    }
+
+    .nimage {
+        width: 120px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nflex {
+        padding: 10px 15px;
+    }
+
+    .nimage {
+        width: 100px;
+        height: 35px;
+    }
+
+    .menu-button {
+        font-size: 25px;
+    }
+}

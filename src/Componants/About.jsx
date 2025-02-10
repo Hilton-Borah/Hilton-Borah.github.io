@@ -15,16 +15,15 @@ const About = () => {
           <List spacing={3} className='atext'>
             <ListItem>
               <ListIcon as={SlEnergy} color='#001c55' />
-              Hello! My name Hilton Kumar Borah and I enjoy creating things that live on the internet.
+              Hello! I'm Hilton Kumar Borah, a passionate Full Stack Developer who loves building dynamic and user-friendly web applications.
             </ListItem>
-            <ListItem>
+            <ListItem style={{marginTop: '10px'}}>
               <ListIcon as={SlEnergy} color='#001c55' />
-              I'm a passionate Developer, with strong administrative and communication skills, good attention to detail and the ability to write efficient code using MERN Stack.
-
+              With 2 years of experience in both professional and freelance projects, I have worked on 5+ real-life applications, honing my skills in the MERN stack. My expertise lies in writing clean, efficient code while ensuring seamless functionality and great user experience.
             </ListItem>
-            <ListItem>
+            <ListItem style={{marginTop: '10px'}}>
               <ListIcon as={SlEnergy} color='#001c55' />
-              Fast Forwarding to today, I built a number of web applications and 4 major projects. Learned a great deal about teamwork, leadership, and communication. After months of rigorous training, here I am looking for an opportunity as a full stack web developer.
+              Beyond coding, I bring strong communication, teamwork, and leadership skills—gained through hands-on experience in fast-paced environments. I'm always eager to learn and take on new challenges, looking for the next opportunity to build impactful digital solutions.
             </ListItem>
           </List>
         </Grid>

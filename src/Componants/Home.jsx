@@ -8,7 +8,7 @@ import { AiFillInstagram } from "react-icons/ai";
 const Home = () => {
   const handleClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1euCvjYR9Wt9TTHX8C_wCLf0Pb_TaXd1F/view?usp=sharing",
+      "https://drive.google.com/file/d/1P24dRciQG4gt2y7gyKYliHCMuEdLISqS/view?usp=sharing",
       "_blank",
       "noopener,noreferrer"
     )
